@@ -7,6 +7,7 @@ function Home(){
         <section>
        <HomeNavigation></HomeNavigation>
 
+
        <div className='flex'>
         <div className='w-1/2 pl-14 pt-20'>
             <p className='text-5xl font-bold text-pp_dark'>
