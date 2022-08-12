@@ -31,7 +31,7 @@ We are ready and able to help you find the best tutor Lorem ipsum dolor, sit ame
         </div>
        </div>
         </section>
-          <section className=' h-94 mt-14 bg-pp_light py-10 px-36' id='about'>
+          <section className=' h-94 mt-14 bg-pp_light py-10 px-36 opacity-80' id='about'>
           <div>
              <h1 className='text-center  text-xl font-bold '>About Us</h1>
              <p className='text-center mt-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil incidunt
@@ -95,7 +95,9 @@ submit
 
              </section>
 
-            
+            <section className=' footer bg-pp_light py-4 '>
+<p className='text-center text-white'>copyright  @ 2022 </p>
+            </section>
              </div>
     )
 }
