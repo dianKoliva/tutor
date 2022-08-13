@@ -1,7 +1,7 @@
 import React from 'react'
 import kk from "../assets/login.svg";
 import HomeNavigation from '../components/navigations/HomeNavigation';
-export const Login = () => {
+export const Singup = () => {
   return (
     <div>
         <HomeNavigation></HomeNavigation>
@@ -36,7 +36,7 @@ export const Login = () => {
 Register
     </button>
 </div>
-            </div>
+            </div>  
       
         </div>
         </div>
