@@ -1,15 +1,8 @@
-const mongoose = require('mongoose')
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/mydb";
 
-const url = `mongodb+srv://dian:king@cluster0.fs2qg.mongodb.net/tutor?retryWrites=true&w=majority`;
-
-const connectionParams={
-    useNewUrlParser: true,
-    useUnifiedTopology: true 
-}
-mongoose.connect(url,connectionParams)
-    .then( () => {
-        console.log('Connected to database ')
-    })
-    .catch( (err) => {
-        console.error(`Error connecting to the database. \n${err}`);
-    })
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  console.log("Database created!");
+  db.close();
+});
